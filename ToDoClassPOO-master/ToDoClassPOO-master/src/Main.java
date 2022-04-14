@@ -71,7 +71,7 @@ public class Main { /*Classe pricipal que rodará o programa*/
     }
 
     private static void updateTask(Scanner scanner){ /*Método que irá atualizar/editar a tarefa*/
-        System.out.println("====       Insira o ID da tarefa:        ====");
+        System.out.println("====       Coloque o ID da tarefa:        ====");
         int updateId = scanner.nextInt();
         scanner.nextLine();
         System.out.println("====    Insira a descrição da tarefa:    ====");
